@@ -9,6 +9,8 @@ import AboutContainer from './components/AboutContainer';
 import TopBar from './components/TopBar';
 import TitleContainer from './components/TitleContainer';
 import Footer from './components/Footer';
+import SkillsContainer from './components/SkillsContainer'
+import InformationContainer from './components/InformationContainer'
 
 const theme = createMuiTheme({
   palette: {
@@ -41,9 +43,11 @@ function App() {
           <div className="box">
             <div className="column">
               <AboutContainer />
+              <InformationContainer/>
             </div>
             <div className="column">
               <ImagesGrid />
+              <SkillsContainer/>
             </div>
           </div>
           <div className="foot">

@@ -10,7 +10,7 @@ import BRAVES from '../static/images/braves.png';
 
 export default function AboutContainer() {
   return (
-    <Container style={{ padding: '0 10px' }} maxWidth={false}>
+    <Container style={{ padding: '0 5px'}} maxWidth={false}>
       <div
         style={{
           backgroundColor: '#ededed',
@@ -74,8 +74,7 @@ export default function AboutContainer() {
         <Typography paragraph>
           I am truly a problem solver at heart, which lends aptitude towards my
           skills as a developer. Outside of work, I spend a large amount of time
-          maintaining, repairing, and modifying, my car, motorcyle, and mountain
-          bikes.
+          maintaining, repairing, riding, and modifying, my mountain bikes, motorcyle, and car.
         </Typography>
       </div>
       <div

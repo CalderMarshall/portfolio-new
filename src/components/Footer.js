@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
-export default function TopBar() {
+export default function Footer() {
   return (
     <Container>
     <Typography

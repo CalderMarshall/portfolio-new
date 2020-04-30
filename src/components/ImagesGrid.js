@@ -6,11 +6,18 @@ import Container from '@material-ui/core/Container';
 
 export default function ImagesGrid() {
   return (
-    <Container style={{ padding: '0 15px' }}>
+    <Container style={{padding: '0 5px'}}>
+      <div
+        style={{
+          backgroundColor: '#ededed',
+          borderRadius: 10,
+          padding: 15,
+        }}
+      >
       <Typography variant="h6" paragraph align="center">
         Here's how I spend my free time!
       </Typography>
-      <Grid container spacing={4}>
+      <Grid container spacing={3}>
         <GridItem
           imageUrl={require('../static/images/beer_run.jpg')}
           title={'Talladega National Forest Skyway'}
@@ -57,6 +64,7 @@ export default function ImagesGrid() {
           subtitle={'Morrison, CO'}
         />
       </Grid>
+      </div>
     </Container>
   );
 }

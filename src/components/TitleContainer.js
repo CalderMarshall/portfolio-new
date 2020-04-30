@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-export default function ImagesGrid() {
+export default function TitleContainer() {
   return (
     <Container>
       <Typography variant="h5" align="center" color="textPrimary">
