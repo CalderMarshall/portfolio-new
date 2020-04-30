@@ -5,7 +5,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-export default function GridItem({ imageUrl, title, subtitle, viewAction, editAction }) {
+export default function GridItem({
+  imageUrl,
+  title,
+  subtitle,
+  viewAction,
+  editAction,
+}) {
   return (
     <Grid item xs={12} sm={6} md={4}>
       <Card
