@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
-import pdf from "../static/docs/CalderMarshallResume.pdf";
+import pdf from "../static/docs/Calder_Marshall_Resume.pdf";
 import ATL from "../static/images/atlanta-united-fc.svg";
 import OUT from "../static/images/outkast.png";
 import SEAL from "../static/images/seal.png";
