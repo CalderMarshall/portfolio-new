@@ -22,27 +22,25 @@ export default function AboutContainer() {
           About Me
         </Typography>
         <Typography paragraph variant="subtitle1">
-          Hey, I'm Calder, a User Interface Engineer for{" "}
+          Hey, I'm Calder, most recently a User Interface Engineer at{" "}
           <Link target="none" href="https://about.sharecare.com/">
             Sharecare
           </Link>{" "}
           in Atlanta.
         </Typography>
         <Typography paragraph>
-          I spend most of my time at Sharecare building functional React
-          components for our web platform. You can view the web platform after
-          creating an{" "}
+          I spent most of my time at Sharecare building React components for
+          their web platform. You can view the web platform after creating an{" "}
           <Link target="none" href="https://you.sharecare.com/">
             account
           </Link>
-          . My work demands using modern features of Javascript and the
+          . At Sharecare, I used many modern features of Javascript and the
           Ecmascript syntax.
         </Typography>
         <Typography paragraph>
-          I also spend a fair amount of time unit testing these components to
-          ensure they will work properly. In addition, towards the end of 2019,
-          I played a large part in updating certain sections of the Sharecare
-          Web Application to meet{" "}
+          I also spent a fair amount of time unit testing these components to
+          ensure they would perform properly. In addition, I played a large part
+          in updating certain sections of the Sharecare Web Application to meet{" "}
           <Link
             target="none"
             href="https://www.w3.org/WAI/standards-guidelines/wcag/"
@@ -52,9 +50,9 @@ export default function AboutContainer() {
           .
         </Typography>
         <Typography paragraph>
-          This also includes making these views compliant in older, less modern
-          browsers. My work at Sharecare also includes working with and
-          debugging NodeJS servers when necessary.
+          I also had to ensure these views would render properly in older, less
+          modern browsers. My work at Sharecare also included working with and
+          debugging NodeJS servers.
         </Typography>
         <Typography paragraph>
           My programming career started at{" "}
@@ -73,15 +71,22 @@ export default function AboutContainer() {
         </Typography>
         <Typography paragraph>
           I am truly a problem solver at heart, which lends aptitude towards my
-          skills as a developer. Outside of work, I spend a large amount of time
+          skills as a developer. Outside of work, I spend many hours tackling
+          more physical engineering challenges. This primarily consists of
           maintaining, repairing, riding, and modifying, my mountain bikes,
-          motorcyle, and car.
+          motorcyle, and cars.
         </Typography>
         <Typography paragraph>
           That sweet 1987 Chevrolet G20 Van is my current outside of work
           project. My girlfriend Allyson and I were lucky enough to buy this van
-          in Savannah for $330. We're really looking forward to getting it on
-          the road and going on some awesome mountain biking trips!
+          in Savannah for $330. Curious? Check out the van build youtube channel{" "}
+          <Link
+            target="none"
+            href="https://www.youtube.com/channel/UC6tErm8Mz7xarxacuMcIEkg"
+          >
+            here
+          </Link>
+          . I'm just now learning how to use my GoPro.
         </Typography>
       </div>
       <div
