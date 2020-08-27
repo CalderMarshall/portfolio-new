@@ -22,25 +22,28 @@ export default function AboutContainer() {
           About Me
         </Typography>
         <Typography paragraph variant="subtitle1">
-          Hey, I'm Calder, most recently a User Interface Engineer at{" "}
-          <Link target="none" href="https://about.sharecare.com/">
-            Sharecare
+          Hey, I'm Calder, most recently a UI Developer at{" "}
+          <Link target="none" href="https://heliumservices.com/">
+            Helium
           </Link>{" "}
           in Atlanta.
         </Typography>
         <Typography paragraph>
-          I spent most of my time at Sharecare building React components for
-          their web platform. You can view the web platform after creating an{" "}
-          <Link target="none" href="https://you.sharecare.com/">
-            account
-          </Link>
-          . At Sharecare, I used many modern features of Javascript and the
-          Ecmascript syntax.
+          My strength as a developer is the front end. Most of my career has
+          been spent building React components for the web. The applications
+          I've worked on have often been paired with a Node.js backend. I have
+          also worked with Java backend stacks. I advocate and prefer the use of
+          modern Javascript features and the Ecmascript syntax. Most recently at
+          Helium, I spent time becoming familiar with, and building features in
+          Typescript.
         </Typography>
         <Typography paragraph>
-          I also spent a fair amount of time unit testing these components to
-          ensure they would perform properly. In addition, I played a large part
-          in updating certain sections of the Sharecare Web Application to meet{" "}
+          I advocate unit testing for front front end components. I've held
+          roles where developers are responsible for maintaining quality, and
+          I've also worked with Quality Assurance departments. I'm also
+          comfortable supporting applications in older, less compliant browsers.
+          At Sharecare, I played a large part in updating the Health Profile
+          section of their Web Application to meet{" "}
           <Link
             target="none"
             href="https://www.w3.org/WAI/standards-guidelines/wcag/"
@@ -50,11 +53,6 @@ export default function AboutContainer() {
           .
         </Typography>
         <Typography paragraph>
-          I also had to ensure these views would render properly in older, less
-          modern browsers. My work at Sharecare also included working with and
-          debugging NodeJS servers.
-        </Typography>
-        <Typography paragraph>
           My programming career started at{" "}
           <Link target="none" href="https://www.digitalcrafts.com/">
             Digital Crafts
@@ -62,8 +60,9 @@ export default function AboutContainer() {
           in Buckhead, February of 2017.
         </Typography>
         <Typography paragraph>
-          Want to learn more about my qualifications and experience? Take a look
-          at my{" "}
+          Want to learn more about my qualifications and experience?
+          <br />
+          Take a look at my{" "}
           <Link target="none" href={pdf}>
             resume
           </Link>
@@ -71,22 +70,21 @@ export default function AboutContainer() {
         </Typography>
         <Typography paragraph>
           I am truly a problem solver at heart, which lends aptitude towards my
-          skills as a developer. Outside of work, I spend many hours tackling
-          more physical engineering challenges. This primarily consists of
-          maintaining, repairing, riding, and modifying, my mountain bikes,
-          motorcyle, and cars.
+          skills as a developer. Outside of work, I spend hours tackling more
+          physical engineering challenges. Mainly working on cars, bicycles, and
+          motorbikes.
         </Typography>
         <Typography paragraph>
-          That sweet 1987 Chevrolet G20 Van is my current outside of work
-          project. My girlfriend Allyson and I were lucky enough to buy this van
-          in Savannah for $330. Curious? Check out the van build youtube channel{" "}
+          I've got more time invested in that Chevy Van than I'd care to admit.
+          I have been neglecting using my GoPro, but there is one video of the
+          project uploaded{" "}
           <Link
             target="none"
             href="https://www.youtube.com/channel/UC6tErm8Mz7xarxacuMcIEkg"
           >
             here
           </Link>
-          . I'm just now learning how to use my GoPro.
+          .
         </Typography>
       </div>
       <div
@@ -130,8 +128,7 @@ export default function AboutContainer() {
           Atlanta, GA
         </Typography>
         <Typography paragraph>
-          I was born and raised here. I love the outdoors, but this city has my
-          heart.
+          I love the outdoors, but this city has my heart.
         </Typography>
       </div>
     </Container>
