@@ -32,18 +32,18 @@ export default function AboutContainer() {
           My strength as a developer is the front end. Most of my career has
           been spent building React components for the web. The applications
           I've worked on have often been paired with a Node.js backend. I have
-          also worked with Java backend stacks. I advocate and prefer the use of
-          modern Javascript features and the Ecmascript syntax. Most recently at
-          Helium, I spent time becoming familiar with, and building features in
-          Typescript.
+          also worked with Java backend stacks. I advocate for, and prefer the
+          use of modern Javascript features, and the Ecmascript syntax. Most
+          recently at Helium, I spent time becoming familiar with, and building
+          features in Typescript.
         </Typography>
         <Typography paragraph>
-          I advocate unit testing for front front end components. I've held
-          roles where developers are responsible for maintaining quality, and
-          I've also worked with Quality Assurance departments. I'm also
-          comfortable supporting applications in older, less compliant browsers.
-          At Sharecare, I played a large part in updating the Health Profile
-          section of their Web Application to meet{" "}
+          I also support and believe in unit testing front front end components.
+          I've held roles where developers are responsible for maintaining
+          quality, and I've also worked with Quality Assurance departments. I'm
+          also comfortable supporting applications in older, less compliant
+          browsers. At Sharecare, I played a large part in updating the Health
+          Profile section of their Web Application to meet{" "}
           <Link
             target="none"
             href="https://www.w3.org/WAI/standards-guidelines/wcag/"
