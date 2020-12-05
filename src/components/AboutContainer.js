@@ -30,13 +30,12 @@ export default function AboutContainer() {
         </Typography>
         <Typography paragraph>
           While most of my career has been spent writing front end Javascript
-          and React, my skill in Node.js are steadily progressing. The front end
-          applications I've worked on have often been paired with a Node.js
-          backend. I have also worked with Java backend stacks. I advocate for,
-          and prefer the use of modern Javascript features, and the Ecmascript
-          syntax. Most recently at Wahoo, I've begun to become familiar with
-          Ruby on Rails, bitbucket CI/CD tools, and SonarQube coverage
-          reporting.
+          and React, my full stack role at Wahoo is allowing my Node.js
+          knowledge to steadily progress. I have also worked with Java backend
+          stacks. I advocate for, and prefer the use of modern Javascript
+          features, and the Ecmascript syntax. Most recently at Wahoo, I've
+          begun to become familiar with Ruby on Rails, Bitbucket CI/CD, AWS
+          Cloud, and SonarQube.
         </Typography>
         <Typography paragraph>
           I support and believe in unit testing. I've held roles where
