@@ -19,24 +19,29 @@ export default function ImagesGrid() {
         </Typography>
         <Grid container spacing={3}>
           <GridItem
+            imageUrl={require("../static/images/trackstand.jpg")}
+            title={"Rope Mill Park"}
+            subtitle={"Woodstock, GA"}
+          />
+          <GridItem
             imageUrl={require("../static/images/beer_run.jpg")}
             title={"Talladega National Forest Skyway"}
             subtitle={"Eastern Alabama"}
           />
           <GridItem
-            imageUrl={require("../static/images/cwmftf.jpg")}
-            title={"Coldwater Mountain Fat Tire Festival"}
-            subtitle={"Anniston, AL"}
-          />
-          <GridItem
-            imageUrl={require("../static/images/santa_cruz.jpg")}
-            title={"Bull Mountain"}
-            subtitle={"Dahlonega, GA"}
+            imageUrl={require("../static/images/pisgah.jpg")}
+            title={"Looking Glass Falls"}
+            subtitle={"Brevard, NC"}
           />
           <GridItem
             imageUrl={require("../static/images/harley.jpg")}
             title={"Fort Mountain"}
             subtitle={"GA-52, Chatsworth, GA"}
+          />
+          <GridItem
+            imageUrl={require("../static/images/driftwood.jpg")}
+            title={"Driftwood Trail"}
+            subtitle={"Acworth, GA"}
           />
           <GridItem
             imageUrl={require("../static/images/vail.jpg")}
@@ -49,14 +54,14 @@ export default function ImagesGrid() {
             subtitle={"Atlanta, GA"}
           />
           <GridItem
-            imageUrl={require("../static/images/memphis.jpg")}
-            title={"Beale Street"}
-            subtitle={"Memphis, TN"}
-          />
-          <GridItem
             imageUrl={require("../static/images/kitchen.jpg")}
             title={"Pico de Gallo"}
             subtitle={"Nashville, TN"}
+          />
+          <GridItem
+            imageUrl={require("../static/images/south_loop.jpg")}
+            title={"South Loop Trail"}
+            subtitle={"Woodstock, GA"}
           />
           <GridItem
             imageUrl={require("../static/images/red_rocks.jpg")}
@@ -64,19 +69,14 @@ export default function ImagesGrid() {
             subtitle={"Morrison, CO"}
           />
           <GridItem
-            imageUrl={require("../static/images/pisgah.jpg")}
-            title={"Looking Glass Falls"}
-            subtitle={"Brevard, NC"}
-          />
-          <GridItem
-            imageUrl={require("../static/images/van_2.jpg")}
-            title={"1987 Chevy G20"}
+            imageUrl={require("../static/images/woodys.jpg")}
+            title={"Woody's Cheesesteaks"}
             subtitle={"Atlanta, GA"}
           />
           <GridItem
-            imageUrl={require("../static/images/van_3.jpg")}
-            title={"1987 Chevy G20"}
-            subtitle={"Atlanta, GA"}
+            imageUrl={require("../static/images/fats.jpg")}
+            title={"Forks Area Trail System"}
+            subtitle={"Clarks Hill, SC"}
           />
         </Grid>
       </div>

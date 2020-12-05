@@ -22,28 +22,29 @@ export default function AboutContainer() {
           About Me
         </Typography>
         <Typography paragraph variant="subtitle1">
-          Hey, I'm Calder, most recently a UI Developer at{" "}
-          <Link target="none" href="https://heliumservices.com/">
-            Helium
+          Hey, I'm Calder, a Javascript developer at{" "}
+          <Link target="none" href="https://www.wahoofitness.com/">
+            Wahoo Fitness
           </Link>{" "}
           in Atlanta.
         </Typography>
         <Typography paragraph>
-          My strength as a developer is the front end. Most of my career has
-          been spent building React components for the web. The applications
-          I've worked on have often been paired with a Node.js backend. I have
-          also worked with Java backend stacks. I advocate for, and prefer the
-          use of modern Javascript features, and the Ecmascript syntax. Most
-          recently at Helium, I spent time becoming familiar with, and building
-          features in Typescript.
+          While most of my career has been spent writing front end Javascript
+          and React, my skill in Node.js are steadily progressing. The front end
+          applications I've worked on have often been paired with a Node.js
+          backend. I have also worked with Java backend stacks. I advocate for,
+          and prefer the use of modern Javascript features, and the Ecmascript
+          syntax. Most recently at Wahoo, I've begun to become familiar with
+          Ruby on Rails, bitbucket CI/CD tools, and SonarQube coverage
+          reporting.
         </Typography>
         <Typography paragraph>
-          I also support and believe in unit testing front front end components.
-          I've held roles where developers are responsible for maintaining
-          quality, and I've also worked with Quality Assurance departments. I'm
-          also comfortable supporting applications in older, less compliant
-          browsers. At Sharecare, I played a large part in updating the Health
-          Profile section of their Web Application to meet{" "}
+          I support and believe in unit testing. I've held roles where
+          developers are responsible for maintaining quality, and I've also
+          worked with Quality Assurance departments. I'm also comfortable
+          supporting applications in older, less compliant browsers. At
+          Sharecare, I played a large part in updating the Health Profile
+          section of their Web Application to meet{" "}
           <Link
             target="none"
             href="https://www.w3.org/WAI/standards-guidelines/wcag/"
@@ -76,8 +77,8 @@ export default function AboutContainer() {
         </Typography>
         <Typography paragraph>
           I've got more time invested in that Chevy Van than I'd care to admit.
-          I have been neglecting using my GoPro, but there is one video of the
-          project uploaded{" "}
+          I have been neglecting using my GoPro, but there is one video of my
+          friend and I putting on a new door{" "}
           <Link
             target="none"
             href="https://www.youtube.com/channel/UC6tErm8Mz7xarxacuMcIEkg"
