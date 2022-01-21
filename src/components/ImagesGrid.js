@@ -1,8 +1,8 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import GridItem from "./GridItem";
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 
 export default function ImagesGrid() {
   return (

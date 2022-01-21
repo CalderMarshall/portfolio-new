@@ -1,13 +1,8 @@
 import React from "react";
-import AppBar from "@material-ui/core/AppBar";
-import DirectionsBikeIcon from "@material-ui/icons/DirectionsBike";
-import MotorcycleIcon from "@material-ui/icons/Motorcycle";
-import ComputerIcon from "@material-ui/icons/Computer";
-import CodeIcon from "@material-ui/icons/Code";
-import FilterHdrIcon from "@material-ui/icons/FilterHdr";
-import BuildIcon from "@material-ui/icons/Build";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+import AppBar from "@mui/material/AppBar";
+import {DirectionsBike, TwoWheeler, Computer, Code, FilterHdr, Build} from "@mui/icons-material";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
 export default function TopBar() {
   return (
@@ -25,12 +20,12 @@ export default function TopBar() {
             alignItems: "center",
           }}
         >
-          <CodeIcon />
-          <ComputerIcon />
-          <BuildIcon className="wrench" />
-          <DirectionsBikeIcon style={{ marginBottom: 6 }} />
-          <FilterHdrIcon />
-          <MotorcycleIcon />
+          <Code />
+          <Computer />
+          <Build className="wrench" />
+          <DirectionsBike style={{ marginBottom: 6 }} />
+          <FilterHdr />
+          <TwoWheeler />
         </div>
       </Toolbar>
     </AppBar>
