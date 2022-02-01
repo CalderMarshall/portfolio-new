@@ -1,6 +1,13 @@
 import React from "react";
 import AppBar from "@mui/material/AppBar";
-import {DirectionsBike, TwoWheeler, Computer, Code, FilterHdr, Build} from "@mui/icons-material";
+import {
+  DirectionsBike,
+  TwoWheeler,
+  Computer,
+  Code,
+  FilterHdr,
+  Build,
+} from "@mui/icons-material";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 

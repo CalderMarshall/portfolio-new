@@ -13,12 +13,10 @@ export default function AboutContainer() {
     <Container style={{ padding: "0 5px" }} maxWidth={false}>
       <div
         style={{
-          backgroundColor: "#ededed",
-          borderRadius: 10,
           padding: 15,
         }}
       >
-        <Typography variant="h6" paragraph align="left">
+        <Typography variant="h5" paragraph align="left">
           About Me
         </Typography>
         <Typography paragraph variant="subtitle1">
@@ -76,24 +74,10 @@ export default function AboutContainer() {
         </Typography>
         <Typography paragraph>
           I've got more time invested in that Chevy Van than I'd care to admit.
-          I have been neglecting using my GoPro, but there is one video of my
-          friend and I putting on a new door{" "}
-          <Link
-            target="none"
-            href="https://www.youtube.com/channel/UC6tErm8Mz7xarxacuMcIEkg"
-          >
-            here
-          </Link>
-          .
         </Typography>
       </div>
       <div
-        style={{
-          backgroundColor: "#ededed",
-          borderRadius: 10,
-          padding: 15,
-          margin: "20px 0px",
-        }}
+        style={{padding: 15, margin: "20px 0px"}}
       >
         <img
           style={{ margin: "0px 5px" }}
@@ -124,9 +108,6 @@ export default function AboutContainer() {
           width="50"
         />
 
-        <Typography style={{ padding: "10px 0px" }} variant="h6">
-          Atlanta, GA
-        </Typography>
         <Typography paragraph>
           I love the outdoors, but this city has my heart.
         </Typography>

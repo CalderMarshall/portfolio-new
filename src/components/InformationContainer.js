@@ -9,15 +9,10 @@ export default function InformationContainer() {
     <Container style={{ padding: "0 5px" }} maxWidth={false}>
       <div
         style={{
-          backgroundColor: "#ededed",
-          borderRadius: 10,
           padding: 15,
           margin: "20px 0px",
         }}
       >
-        <Typography style={{ padding: "10px 0px" }} variant="h6">
-          Info
-        </Typography>
         <Typography>
           <Link
             target="none"

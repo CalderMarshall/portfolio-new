@@ -7,27 +7,20 @@ export default function SkillsContainer() {
   const skillsList = [
     "Javascript",
     "React",
-    "CSS",
-    "HTML",
+    "Ruby",
+    "HTML/CSS",
     "Node.js",
+    "Rails",
     "Jest",
-    "Enzyme",
-    "Python",
-    "Java",
     "React Native",
     "SQL",
-    "Google Cloud",
     "AWS",
     "Jenkins",
   ];
   return (
     <Container style={{ marginTop: 20, padding: "0 5px" }}>
       <div
-        style={{
-          backgroundColor: "#ededed",
-          borderRadius: 10,
-          padding: 15,
-        }}
+        style={{padding: 15}}
       >
         <Container
           style={{
@@ -38,7 +31,7 @@ export default function SkillsContainer() {
             paddingBottom: "15px",
           }}
         >
-          Competencies
+          Core Competencies
         </Container>
         <Grid container spacing={1}>
           {skillsList.map((skill) => (

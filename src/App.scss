@@ -1,0 +1,53 @@
+.column {
+  width: 50%;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.wrench {
+  transform: rotate(0.375turn);
+}
+.foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.image-gallery-slides {
+  max-height: 280px !important;
+  .image-gallery-slide {
+    max-height: 280px !important;
+  }
+  .image-gallery-image {
+    max-height: 280px !important;
+  }
+}
+
+.strava-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .box {
+    display: block;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  .column {
+    width: 100%;
+  }
+  .top {
+    width: 100vw;
+  }
+}

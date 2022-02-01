@@ -1,14 +1,15 @@
-import React from 'react';
-import './App.css';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import {teal, red} from '@mui/material/colors';
-import ImagesGrid from './components/ImagesGrid';
-import AboutContainer from './components/AboutContainer';
-import TopBar from './components/TopBar';
-import TitleContainer from './components/TitleContainer';
-import Footer from './components/Footer';
-import SkillsContainer from './components/SkillsContainer'
-import InformationContainer from './components/InformationContainer'
+import React from "react";
+import "./App.scss";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { teal, red } from "@mui/material/colors";
+import ImagesGrid from "./components/ImagesGrid";
+import AboutContainer from "./components/AboutContainer";
+import TopBar from "./components/TopBar";
+import TitleContainer from "./components/TitleContainer";
+import Footer from "./components/Footer";
+import SkillsContainer from "./components/SkillsContainer";
+import InformationContainer from "./components/InformationContainer";
+import StravaContainer from "./components/StravaContainer";
 
 const theme = createTheme({
   palette: {
@@ -24,6 +25,12 @@ const theme = createTheme({
       fontWeight: 400,
       fontSize: 16,
     },
+    h6: {
+      fontSize: '1em'
+    },
+    h5: {
+      fontSize: '1.25em'
+    }
   },
 });
 
@@ -41,11 +48,12 @@ function App() {
           <div className="box">
             <div className="column">
               <AboutContainer />
-              <InformationContainer/>
+              <InformationContainer />
             </div>
             <div className="column">
               <ImagesGrid />
-              <SkillsContainer/>
+              <SkillsContainer />
+              <StravaContainer/>
             </div>
           </div>
           <div className="foot">
