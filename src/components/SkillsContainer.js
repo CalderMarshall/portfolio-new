@@ -18,7 +18,7 @@ export default function SkillsContainer() {
     "Jenkins",
   ];
   return (
-    <Container style={{ marginTop: 20, padding: "0 5px" }}>
+    <Container style={{ marginTop: 0, padding: "0 5px" }}>
       <div
         style={{padding: 15}}
       >
@@ -26,23 +26,19 @@ export default function SkillsContainer() {
           style={{
             display: "flex",
             justifyContent: "center",
-            color: "#F2453D",
-            fontWeight: 600,
-            paddingBottom: "15px",
           }}
         >
+        <Typography variant="h5" paragraph align="left">
           Core Competencies
+        </Typography>
         </Container>
-        <Grid container spacing={1}>
-          {skillsList.map((skill) => (
-            <Grid key={skill} item xs={6} s={"auto"} md={6} lg={4} xl={"auto"}>
-              <Container>
+        <Grid container spacing={0} className="skills-grid">
+          {skillsList.map((skill, index) => (
+            <Grid key={index} item xs={4} s={4} md={4} lg={4} xl={4}>
+              <Container style={{padding: 0}}>
                 <div
                   style={{
-                    padding: "0px 8px",
                     color: "#F2453D",
-                    borderRadius: 12,
-                    border: "1px solid gray",
                     minWidth: 85,
                     textAlign: "center",
                   }}

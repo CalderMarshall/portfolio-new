@@ -22,7 +22,9 @@ export default function ImagesGrid() {
     },
   ];
   const imagesLoaded = () => {
-    setShowGallery(true)
+    setTimeout(() => {
+      setShowGallery(true)
+    }, 300)
   }
   return (
     <Container style={{ padding: "0 5px" }}>
@@ -32,10 +34,10 @@ export default function ImagesGrid() {
         </Typography>
         
         <div className="gallery-container">
-          <div style={showGallery? {} : {opacity: 0}}>
+          <div style={showGallery? {} : {opacity: 0, width: 0}}>
             <ImageGallery additionalClass="gallery-element" onImageLoad={() => imagesLoaded()} showFullscreenButton={false} showPlayButton={false} items={images} />
           </div>
-          <div style={showGallery? {display: 'none'} : {height: '280px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div style={showGallery? {display: 'none'} : {display: 'flex', justifyContent: 'center', width: '100%', height: '323px', alignItems: 'center'}}>
           <CircularProgress />
           </div>
         </div>

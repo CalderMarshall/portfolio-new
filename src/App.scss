@@ -23,13 +23,17 @@
 }
 
 .image-gallery-slides {
-  max-height: 280px !important;
+  max-height: 250px !important;
   .image-gallery-slide {
-    max-height: 280px !important;
+    max-height: 250px !important;
   }
   .image-gallery-image {
-    max-height: 280px !important;
+    max-height: 250px !important;
   }
+}
+.gallery-container {
+  display: flex;
+  justify-content: center;
 }
 
 .strava-container {
@@ -38,7 +42,31 @@
   align-items: center;
 }
 
-@media (max-width: 500px) {
+.logo-container {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-evenly;
+}
+
+.footer-typography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-grid {
+  padding: 10px 0;
+  background: rgb(243, 243, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 244, 0.819765406162465) 0%,
+    rgba(255, 255, 255, 0.8645833333333334) 50%,
+    rgba(243, 243, 244, 0.82) 100%
+  );
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
   .box {
     display: block;
     margin-left: 0.25em;

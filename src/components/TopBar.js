@@ -10,12 +10,15 @@ import {
 } from "@mui/icons-material";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
+import pdf from "../static/docs/Calder_Marshall_Resume.pdf";
+import Button from '@mui/material/Button';
 
 export default function TopBar() {
   return (
     <AppBar position="relative">
-      <Toolbar style={{ margin: 0, padding: 0, marginLeft: 5 }}>
-        <Typography variant="h6" color="inherit" style={{ margin: "0px 5px" }}>
+      <Toolbar style={{ margin: 0, padding: 0, marginLeft: 5, display: 'flex', justifyContent: 'space-between' }}>
+                  <Typography variant="h6" color="inherit" style={{ margin: "0px 5px" }}>
           Calder Marshall
         </Typography>
         <div

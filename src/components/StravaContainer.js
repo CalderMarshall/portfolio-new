@@ -7,7 +7,7 @@ export default function StravaContainer() {
       <div className="strava-container">
         <iframe
           scrolling="yes"
-          height="350"
+          height="460"
           width="300"
           frameBorder="0"
           allowtransparency="true"

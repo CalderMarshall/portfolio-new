@@ -13,7 +13,7 @@ export default function AboutContainer() {
     <Container style={{ padding: "0 5px" }} maxWidth={false}>
       <div
         style={{
-          padding: 15,
+          padding: '0px 15px'
         }}
       >
         <Typography variant="h5" paragraph align="left">
@@ -27,20 +27,17 @@ export default function AboutContainer() {
           in Atlanta.
         </Typography>
         <Typography paragraph>
-          While most of my career has been spent writing front end Javascript
-          and React, my full stack role at Wahoo is allowing my Node.js
-          knowledge to steadily progress. I have also worked with Java backend
-          stacks. I advocate for, and prefer the use of modern Javascript
-          features, and the Ecmascript syntax. Most recently at Wahoo, I've
-          begun to become familiar with Ruby on Rails, Bitbucket CI/CD, AWS
-          Cloud, and SonarQube.
+          Most of my career has been spent writing front end Javascript, primarily using React.
+          In my current role at Wahoo, I spend ample time doing MVC work in Ruby on Rails.
+          I am also building a React application, and working on services in NodeJS.
+          I advocate for, and prefer using modern Javascript features and the Ecmascript syntax. 
+          That being said, I'm no stranger to jQuery and native browser javascript.  
+          Most recently at Wahoo, I've been working on file processing pipelines for user devices.
         </Typography>
         <Typography paragraph>
           I support and believe in unit testing. I've held roles where
-          developers are responsible for maintaining quality, and I've also
-          worked with Quality Assurance departments. I'm also comfortable
-          supporting applications in older, less compliant browsers. At
-          Sharecare, I played a large part in updating the Health Profile
+          developers are completley responsible for maintaining quality, and I've also
+          worked with QA engineers.  At  Sharecare, I played a large part in updating the Health Profile
           section of their Web Application to meet{" "}
           <Link
             target="none"
@@ -58,59 +55,47 @@ export default function AboutContainer() {
           in Buckhead, February of 2017.
         </Typography>
         <Typography paragraph>
-          Want to learn more about my qualifications and experience?
-          <br />
-          Take a look at my{" "}
-          <Link target="none" href={pdf}>
-            resume
-          </Link>
-          .
-        </Typography>
-        <Typography paragraph>
           I am truly a problem solver at heart, which lends aptitude towards my
           skills as a developer. Outside of work, I spend hours tackling more
-          physical engineering challenges. Mainly working on cars, bicycles, and
-          motorbikes.
-        </Typography>
-        <Typography paragraph>
-          I've got more time invested in that Chevy Van than I'd care to admit.
+          physical challenges. This mostly consists of riding my bicycle in the woods.
+          Or working on cars, bicycles, and motorbikes.
         </Typography>
       </div>
       <div
-        style={{padding: 15, margin: "20px 0px"}}
+        style={{padding: '15px'}}
       >
-        <img
-          style={{ margin: "0px 5px" }}
-          src={SEAL}
-          alt="City Of Atlanta Seal"
-          height="50"
-          width="50"
-        />
-        <img
-          style={{ margin: "0px 5px" }}
-          src={ATL}
-          alt="Atlanta United"
-          height="50"
-          width="50"
-        />
-        <img
-          style={{ margin: "0px 5px" }}
-          src={OUT}
-          alt="Outkast"
-          height="50"
-          width="74"
-        />
-        <img
-          style={{ margin: "0px 5px" }}
-          src={BRAVES}
-          alt="Atlanta Braves"
-          height="50"
-          width="50"
-        />
-
-        <Typography paragraph>
+        <div className="logo-container">
+          <img
+            src={SEAL}
+            alt="City Of Atlanta Seal"
+            height="50"
+            width="50"
+          />
+          <img
+            src={ATL}
+            alt="Atlanta United"
+            height="50"
+            width="50"
+          />
+          <img
+            src={OUT}
+            alt="Outkast"
+            height="50"
+            width="74"
+          />
+          <img
+            src={BRAVES}
+            alt="Atlanta Braves"
+            height="50"
+            width="50"
+          />
+        </div>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+        <Typography>
           I love the outdoors, but this city has my heart.
         </Typography>
+        </div>
+        
       </div>
     </Container>
   );

@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { teal, red } from "@mui/material/colors";
+import { red } from "@mui/material/colors";
 import ImagesGrid from "./components/ImagesGrid";
 import AboutContainer from "./components/AboutContainer";
 import TopBar from "./components/TopBar";
 import TitleContainer from "./components/TitleContainer";
 import Footer from "./components/Footer";
 import SkillsContainer from "./components/SkillsContainer";
-import InformationContainer from "./components/InformationContainer";
 import StravaContainer from "./components/StravaContainer";
 
 const theme = createTheme({
@@ -17,7 +16,7 @@ const theme = createTheme({
       main: red[500],
     },
     secondary: {
-      main: teal[200],
+      main: "#FFFFFF"
     },
   },
   typography: {
@@ -30,8 +29,12 @@ const theme = createTheme({
     },
     h5: {
       fontSize: '1.25em'
+    },
+    button: {
+      textTransform: 'none',
+      fontSize: '.75rem'
     }
-  },
+  }
 });
 
 function App() {
@@ -48,11 +51,10 @@ function App() {
           <div className="box">
             <div className="column">
               <AboutContainer />
-              <InformationContainer />
+              <SkillsContainer />
             </div>
             <div className="column">
               <ImagesGrid />
-              <SkillsContainer />
               <StravaContainer/>
             </div>
           </div>
