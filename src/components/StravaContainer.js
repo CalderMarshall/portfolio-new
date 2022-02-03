@@ -6,6 +6,7 @@ export default function StravaContainer() {
     <Container style={{ marginTop: 20, padding: "0 5px" }}>
       <div className="strava-container">
         <iframe
+          title="strava-activities"
           scrolling="yes"
           height="460"
           width="300"

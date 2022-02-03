@@ -19,23 +19,21 @@ export default function SkillsContainer() {
   ];
   return (
     <Container style={{ marginTop: 0, padding: "0 5px" }}>
-      <div
-        style={{padding: 15}}
-      >
+      <div className="pad-15">
         <Container
           style={{
             display: "flex",
             justifyContent: "center",
           }}
         >
-        <Typography variant="h5" paragraph align="left">
-          Core Competencies
-        </Typography>
+          <Typography variant="h5" paragraph align="left">
+            Core Competencies
+          </Typography>
         </Container>
         <Grid container spacing={0} className="skills-grid">
           {skillsList.map((skill, index) => (
             <Grid key={index} item xs={4} s={4} md={4} lg={4} xl={4}>
-              <Container style={{padding: 0}}>
+              <Container style={{ padding: 0 }}>
                 <div
                   style={{
                     color: "#F2453D",

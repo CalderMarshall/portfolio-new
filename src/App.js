@@ -16,7 +16,7 @@ const theme = createTheme({
       main: red[500],
     },
     secondary: {
-      main: "#FFFFFF"
+      main: "#FFFFFF",
     },
   },
   typography: {
@@ -25,16 +25,16 @@ const theme = createTheme({
       fontSize: 16,
     },
     h6: {
-      fontSize: '1em'
+      fontSize: "1.1em",
     },
     h5: {
-      fontSize: '1.25em'
+      fontSize: "1.25em",
     },
     button: {
-      textTransform: 'none',
-      fontSize: '.75rem'
-    }
-  }
+      textTransform: "none",
+      fontSize: ".75rem",
+    },
+  },
 });
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
             </div>
             <div className="column">
               <ImagesGrid />
-              <StravaContainer/>
+              <StravaContainer />
             </div>
           </div>
           <div className="foot">
